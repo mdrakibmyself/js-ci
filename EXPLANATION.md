@@ -4,14 +4,14 @@ This document explains the main tools used in this JavaScript GitHub Actions CI 
 
 The JavaScript equivalents of the Python tools from the earlier example are:
 
-| Python Tool | JavaScript Tool | Purpose |
-|---|---|---|
-| Flake8 | ESLint | Linting and code quality |
-| Black | Prettier | Automatic code formatting |
-| Pytest | Jest | Unit testing |
-| pytest-cov | Jest Coverage | Test coverage |
-| Bandit | eslint-plugin-security | Static security checks/security hotspots |
-| pip-audit | npm audit | Dependency vulnerability scanning |
+| Python Tool | JavaScript Tool        | Purpose                                  |
+| ----------- | ---------------------- | ---------------------------------------- |
+| Flake8      | ESLint                 | Linting and code quality                 |
+| Black       | Prettier               | Automatic code formatting                |
+| Pytest      | Jest                   | Unit testing                             |
+| pytest-cov  | Jest Coverage          | Test coverage                            |
+| Bandit      | eslint-plugin-security | Static security checks/security hotspots |
+| pip-audit   | npm audit              | Dependency vulnerability scanning        |
 
 The CI pipeline also uses GitHub Actions for automation and Nodemailer for SMTP email notifications.
 
